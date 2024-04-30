@@ -50,5 +50,13 @@ limits:
   max_height: 10
   max_aliases: 3
 
+## Coprocessor to mask credit card numbers
+coprocessor:
+  url: https://coprocessor-wn3vwa6nlq-ue.a.run.app 
+  timeout: 2s 
+  router:
+    response:
+      body: true
+
 
 
